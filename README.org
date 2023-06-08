@@ -21,7 +21,7 @@ b'8"a string'
 
 # symbols (maybe only lispy people care)
 >>> syrup_encode(Symbol('foo'))
-b"3'foo"
+b'3'foo'
 
 # integers
 >>> syrup_encode(42)
